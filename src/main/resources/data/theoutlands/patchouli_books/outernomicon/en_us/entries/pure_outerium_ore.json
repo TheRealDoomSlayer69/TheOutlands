@@ -1,0 +1,11 @@
+{
+  "name": "Pure Outerium Ore",
+  "icon": "theoutlands:pure_outerium_ore",
+  "category": "theoutlands:the_outlands",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The purest form of the outerium ore, native to the outlands"
+    }
+  ]
+}

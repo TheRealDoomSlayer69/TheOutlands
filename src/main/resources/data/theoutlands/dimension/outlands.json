@@ -1,0 +1,38 @@
+{
+  "type": "theoutlands:outlands",
+  "generator": {
+    "type": "minecraft:noise",
+    "seed": -1036761140,
+    "settings": "theoutlands:outlands",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+	   {
+          "biome": "theoutlands:outer_plains",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "theoutlands:exodendron_forest",
+          "parameters": {
+            "temperature": 0,
+            "humidity": 0,
+            "continentalness": 0,
+            "erosion": 0,
+            "weirdness": 0,
+            "depth": 0,
+            "offset": 0
+          }
+		}
+        
+          ]	  
+        }
+     }
+   }

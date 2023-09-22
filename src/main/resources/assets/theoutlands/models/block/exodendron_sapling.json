@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "theoutlands:block/exodendron_sapling"
+  }
+}

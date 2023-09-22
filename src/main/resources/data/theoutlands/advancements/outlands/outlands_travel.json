@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "theoutlands:outerium_block"
+    },
+    "title": "Getting Outer",
+    "description": "venture into the outlands",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "theoutlands:staff_of_the_outlands",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "theoutlands:outlands"
+      }
+    }
+  }
+}

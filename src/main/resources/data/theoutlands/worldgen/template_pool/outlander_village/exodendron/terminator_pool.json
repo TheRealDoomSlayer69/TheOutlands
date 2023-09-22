@@ -1,0 +1,42 @@
+{
+  "name":"theoutlands:outlander_village/exodendron/terminator_pool",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/terminators/terminator_01",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/terminators/terminator_02",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/terminators/terminator_03",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/terminators/terminator_04",
+        "processors": "theoutlands:street_exodendron"
+      }
+    }
+  ]
+}

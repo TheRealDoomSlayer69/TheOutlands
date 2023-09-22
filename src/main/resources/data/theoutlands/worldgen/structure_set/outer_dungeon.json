@@ -1,0 +1,17 @@
+{
+  "structures": [
+    {
+      "structure": "theoutlands:outer_dungeon",
+      "weight": 2
+    }
+  ],
+  "placement": {
+    "salt": 553125125,
+
+    "spacing": 30,
+
+    "separation": 4,
+
+    "type": "minecraft:random_spread"
+  }
+}

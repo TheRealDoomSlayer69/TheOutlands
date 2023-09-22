@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "theoutlands:exodendron_log",
+    "theoutlands:exodendron_wood",
+    "theoutlands:stripped_exodendron_log",
+    "theoutlands:stripped_exodendron_wood"
+  ]
+}

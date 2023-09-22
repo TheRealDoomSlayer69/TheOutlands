@@ -1,0 +1,150 @@
+{
+  "name": "theoutlands:outlander_village/exodendron/street_pool",
+  "fallback": "theoutlands:outlander_village/exodendron/terminator_pool",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/corner_01",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/corner_02",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/corner_03",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/straight_01",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/straight_02",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/straight_03",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/straight_04",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/straight_05",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/straight_06",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/crossroad_01",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/crossroad_02",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/crossroad_03",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/crossroad_04",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/crossroad_05",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/crossroad_06",
+        "processors": "theoutlands:street_exodendron"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "terrain_matching",
+        "location": "theoutlands:outlander_village/exodendron/streets/turn_01",
+        "processors": "theoutlands:street_exodendron"
+      }
+    }
+  ]
+}

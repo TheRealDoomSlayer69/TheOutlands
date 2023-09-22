@@ -1,0 +1,25 @@
+{
+  "name": "Outerium",
+  "icon": "theoutlands:outerium_ingot",
+  "category": "theoutlands:materials",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Outerium is the best material out there, durable, light,and sharp, perfect for warriors, blacksmiths, as well as farmers"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "theoutlands:outerium_ingot",
+      "text": "The ingot form of outerium, used to make tools and armor",
+      "type": "patchouli:crafting",
+      "recipe": "theoutlands:outerium_ingot_from_nuggets"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "theoutlands:outerium_nugget",
+      "text": "A rare but useless form of outerium, used to make ingots when there is none.",
+      "type": "patchouli:crafting",
+      "recipe": "theoutlands:outerium_nugget_recipe"
+    }
+  ]
+}

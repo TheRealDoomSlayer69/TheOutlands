@@ -1,0 +1,6 @@
+{
+  "parent": "theoutlands:item/outerium_bow",
+  "textures": {
+    "layer0": "theoutlands:item/outerium_bow_pulling_2"
+  }
+}

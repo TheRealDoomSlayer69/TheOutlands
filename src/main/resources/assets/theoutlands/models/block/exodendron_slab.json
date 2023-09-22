@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "theoutlands:block/exodendron_planks",
+    "top": "theoutlands:block/exodendron_planks",
+    "side": "theoutlands:block/exodendron_planks"
+  }
+}

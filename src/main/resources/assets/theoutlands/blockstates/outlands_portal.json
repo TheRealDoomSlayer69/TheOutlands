@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "axis=z": { "model": "theoutlands:block/outlands_portal_ew" },
+    "axis=x": { "model": "theoutlands:block/outlands_portal_ns" }
+  }
+}

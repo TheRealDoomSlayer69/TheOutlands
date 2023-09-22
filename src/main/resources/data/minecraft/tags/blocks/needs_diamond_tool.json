@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "theoutlands:outerium_block",
+    "theoutlands:exodendron_door",
+    "theoutlands:outerium_button",
+    "theoutlands:outerium_pressure_plate",
+    "theoutlands:outerium_ore",
+    "theoutlands:pure_outerium_ore",
+    "theoutlands:deepslate_outerium_ore"
+  ]
+}

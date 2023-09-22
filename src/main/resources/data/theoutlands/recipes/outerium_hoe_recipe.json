@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " tt",
+    " / ",
+    " / "
+  ],
+  "key": {
+    "t": {
+      "item": "theoutlands:outerium_ingot"
+    },
+    "/": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "theoutlands:outerium_hoe",
+    "count": 1
+  }
+}

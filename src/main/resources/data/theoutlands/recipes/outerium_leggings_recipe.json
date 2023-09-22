@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ttt",
+    "t t",
+    "t t"
+  ],
+  "key": {
+    "t": {
+      "item": "theoutlands:outerium_ingot"
+    }
+  },
+  "result": {
+    "item": "theoutlands:outerium_leggings",
+    "count": 1
+  }
+}

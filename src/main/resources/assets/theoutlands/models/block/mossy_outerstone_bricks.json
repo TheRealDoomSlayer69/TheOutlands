@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "theoutlands:block/mossy_outerstone_bricks"
+  }
+}

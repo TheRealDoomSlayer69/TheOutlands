@@ -1,0 +1,11 @@
+{
+  "name": "Lush Outersoil",
+  "icon": "theoutlands:lush_outersoil",
+  "category": "theoutlands:the_outlands",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The nutrient-rich soil of the outlands, it grows the mightiest trees and gives food to the largest beasts."
+    }
+  ]
+}

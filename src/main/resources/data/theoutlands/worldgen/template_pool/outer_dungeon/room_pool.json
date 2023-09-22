@@ -1,0 +1,19 @@
+{
+  "name": "theoutlands:outer_dungeon/room_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+
+      "weight": 3,
+      "element": {
+        "location": "theoutlands:outer_dungeon/room/multi_entrance_room",
+        "processors": "theoutlands:outer_degradation",
+
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

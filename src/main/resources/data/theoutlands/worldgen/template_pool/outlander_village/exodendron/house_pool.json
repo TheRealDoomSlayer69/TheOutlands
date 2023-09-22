@@ -1,0 +1,273 @@
+{
+  "name": "theoutlands:outlander_village/exodendron/house_pool",
+  "fallback": "theoutlands:outlander_village/exodendron/terminator_pool",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut2",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut3",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut4",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut5",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut6",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut7",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/hut8",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_medium_house_",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_medium_house2",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "theoutlands:outlander_village/exodendron/houses/exodendron_house",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_butcher_shop1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_butcher_shop2",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_tool_smith1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_fletcher_house1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_shepherds_house1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_armorer_house1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_temple_3",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_temple_4",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_stable_1",
+        "processors": "minecraft:mossify_10_percent"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_stable_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_large_farm_1",
+        "processors": "minecraft:farm_plains"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_small_farm_1",
+        "processors": "minecraft:farm_plains"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_animal_pen_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_animal_pen_2",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_animal_pen_3",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_accessory_1",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_meeting_point_4",
+        "processors": "minecraft:mossify_70_percent"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:legacy_single_pool_element",
+        "projection": "rigid",
+        "location": "minecraft:village/exodendron/houses/exodendron_meeting_point_5",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 10,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}

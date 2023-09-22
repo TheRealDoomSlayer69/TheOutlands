@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "theoutlands:block/stripped_exodendron_log",
+    "side": "theoutlands:block/stripped_exodendron_log"
+  }
+}

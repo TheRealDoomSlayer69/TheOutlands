@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "theoutlands:staff_of_the_outlands"
+    },
+    "title": "Ready to go",
+    "description": "Obtain the staff of the outlands and venture into the unknown",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "theoutlands:outlands/root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "theoutlands:staff_of_the_outlands"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "theoutlands:block/exodendron_slab"
+    },
+    "type=double": {
+      "model": "theoutlands:block/exodendron_planks"
+    },
+    "type=top": {
+      "model": "theoutlands:block/exodendron_slab_top"
+    }
+  }
+}

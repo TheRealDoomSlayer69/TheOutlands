@@ -1,0 +1,24 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "theoutlands:block/lush_outersoil"
+      },
+      {
+        "model": "theoutlands:block/lush_outersoil",
+        "y": 90
+      },
+      {
+        "model": "theoutlands:block/lush_outersoil",
+        "y": 180
+      },
+      {
+        "model": "theoutlands:block/lush_outersoil",
+        "y": 270
+      }
+    ],
+    "snowy=true": {
+      "model": "theoutlands:block/lush_outersoil_snow"
+    }
+  }
+}

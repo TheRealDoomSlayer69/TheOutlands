@@ -1,0 +1,38 @@
+{
+  "temperature": 0.8,
+  "downfall": 0.4,
+  "precipitation": "rain",
+  "category": "forest",
+  "effects": {
+    "sky_color": 8948462,
+    "fog_color": 13884651,
+    "water_color": 4159204,
+    "water_fog_color": 329011,
+    "grass_color": 4927905
+  },
+  "spawners": {},
+  "spawn_costs": {},
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+      [
+        "minecraft:amethyst_geode"
+      ],
+    [
+      "theoutlands:outersoil_ore",
+      "theoutlands:exodendron_tree",
+      "theoutlands:pure_outerium_ore"
+    ]
+  ]
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "theoutlands:outer_dungeon/room_pool",
+
+  "fallback": "minecraft:empty",
+
+  "elements": [
+    {
+
+      "weight": 4,
+      "element": {
+        "location": "theoutlands:outer_dungeon/corridor/corridor",
+        "processors": "theoutlands:outer_degradation",
+
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+
+      "weight": 1,
+      "element": {
+        "location": "theoutlands:outer_dungeon/corridor/staircase",
+        "processors": "theoutlands:outer_degradation",
+
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

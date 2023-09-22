@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "theoutlands:outerium_block",
+    "theoutlands:exodendron_door",
+    "theoutlands:outerium_button",
+    "theoutlands:outerium_pressure_plate",
+    "theoutlands:outerium_ore",
+    "theoutlands:pure_outerium_ore",
+    "theoutlands:deepslate_outerium_ore",
+    "theoutlands:outerstone",
+    "theoutlands:cobbled_outerstone",
+    "theoutlands:cobbled_outerstone_stairs",
+    "theoutlands:outerstone_bricks",
+    "theoutlands:cracked_outerstone_bricks",
+    "theoutlands:outerstone_brick_stairs"
+  ]
+}

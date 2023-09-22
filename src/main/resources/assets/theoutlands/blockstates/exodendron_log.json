@@ -1,0 +1,16 @@
+{
+"variants": {
+"axis=x": {
+"model": "theoutlands:block/exodendron_log_horizontal",
+"x": 90,
+"y": 90
+},
+"axis=y": {
+"model": "theoutlands:block/exodendron_log"
+},
+"axis=z": {
+"model": "theoutlands:block/exodendron_log_horizontal",
+"x": 90
+      }
+   }
+}

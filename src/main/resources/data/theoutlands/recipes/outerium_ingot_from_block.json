@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "theoutlands:outerium_block"
+    }
+  ],
+  "result": {
+    "item": "theoutlands:outerium_ingot",
+    "count": 9
+  }
+}

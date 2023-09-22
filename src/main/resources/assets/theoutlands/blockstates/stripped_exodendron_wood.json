@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "theoutlands:block/stripped_exodendron_wood",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "theoutlands:block/stripped_exodendron_wood"
+    },
+    "axis=z": {
+      "model": "theoutlands:block/stripped_exodendron_log",
+      "x": 90
+    }
+  }
+}

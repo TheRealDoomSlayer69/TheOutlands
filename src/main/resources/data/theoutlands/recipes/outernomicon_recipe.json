@@ -1,0 +1,16 @@
+{  "type": "patchouli:shaped_book_recipe",
+  "pattern": [
+    " o ",
+    "oBo",
+    " o "
+  ],
+  "key": {
+    "o": {
+      "item": "theoutlands:outerium_ingot"
+    },
+    "B": {
+      "item": "minecraft:book"
+      }
+    },
+    "book": "theoutlands:outernomicon"
+  }

@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "theoutlands:block/outersoil_path"
+      },
+      {
+        "model": "theoutlands:block/outersoil_path",
+        "y": 90
+      },
+      {
+        "model": "theoutlands:block/outersoil_path",
+        "y": 180
+      },
+      {
+        "model": "theoutlands:block/outersoil_path",
+        "y": 270
+      }
+    ]
+  }
+}

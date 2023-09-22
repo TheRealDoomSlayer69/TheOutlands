@@ -1,0 +1,8 @@
+{
+  "parent": "theoutlands:block/cube_bottom_top",
+  "textures": {
+    "top": "theoutlands:block/outer_sandstone_top",
+    "bottom": "theoutlands:block/outer_sandstone_bottom",
+    "side": "theoutlands:block/outer_sandstone"
+  }
+}
