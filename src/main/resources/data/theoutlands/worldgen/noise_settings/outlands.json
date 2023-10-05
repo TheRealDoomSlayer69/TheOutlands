@@ -2960,29 +2960,27 @@
                         }
                       },
                       {
-                        "type": "minecraft:block",
-                        "result_state": {
-                          "Name": "theoutlands:outersoil"
-                        }
-                      },
-                      {
                         "type": "minecraft:condition",
                         "if_true": {
-                          "type": "minecraft:vertical_gradient",
-                          "random_name": "minecraft:deepslate",
-                          "true_at_and_below": {
-                            "absolute": 0
-                          },
-                          "false_at_and_above": {
-                            "absolute": 8
-                          }
+                          "type": "minecraft:biome",
+                          "biome_is": [
+                            "theoutlands:outer_plains",
+                            "theoutlands:exodendron_forest"
+                          ]
                         },
                         "then_run": {
-                          "type": "minecraft:block",
-                          "result_state": {
-                            "Name": "minecraft:deepslate",
-                            "Properties": {
-                               "axis": "y"
+                          "type": "minecraft:condition",
+                          "if_true": {
+                            "type": "minecraft:stone_depth",
+                            "offset": 0,
+                            "surface_type": "floor",
+                            "add_surface_depth": true,
+                            "secondary_depth_range": 0
+                          },
+                          "then_run": {
+                            "type": "minecraft:block",
+                            "result_state": {
+                              "Name": "theoutlands:outersoil"
                             }
                           }
                         }
@@ -2991,8 +2989,131 @@
                   }
                 ]
               }
+            },
+            {
+            "type": "minecraft:condition",
+            "if_true": {
+              "type": "minecraft:biome",
+              "biome_is": [
+                "theoutlands:outer_hills"
+              ]
+            },
+            "then_run": {
+              "type": "minecraft:sequence",
+              "sequence": [
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": 0.24242424242424243,
+                    "max_threshold": 1.7976931348623157e+308
+                  },
+                  "then_run": {
+                    "type": "minecraft:sequence",
+                    "sequence": [
+                      {
+                        "type": "minecraft:condition",
+                        "if_true": {
+                          "type": "minecraft:stone_depth",
+                          "offset": 0,
+                          "surface_type": "ceiling",
+                          "add_surface_depth": false,
+                          "secondary_depth_range": 0
+                        },
+                        "then_run": {
+                          "type": "minecraft:block",
+                          "result_state": {
+                            "Name": "theoutlands:outerstone"
+                          }
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": 0.12121212121212122,
+                    "max_threshold": 1.7976931348623157e+308
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "theoutlands:outerstone"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:condition",
+                  "if_true": {
+                    "type": "minecraft:noise_threshold",
+                    "noise": "minecraft:surface",
+                    "min_threshold": -0.12121212121212122,
+                    "max_threshold": 1.7976931348623157e+308
+                  },
+                  "then_run": {
+                    "type": "minecraft:block",
+                    "result_state": {
+                      "Name": "theoutlands:outersoil"
+                    }
+                  }
+                },
+                {
+                  "type": "minecraft:sequence",
+                  "sequence": [
+                    {
+                      "type": "minecraft:condition",
+                      "if_true": {
+                        "type": "minecraft:stone_depth",
+                        "offset": 0,
+                        "surface_type": "ceiling",
+                        "add_surface_depth": false,
+                        "secondary_depth_range": 0
+                      },
+                      "then_run": {
+                        "type": "minecraft:block",
+                        "result_state": {
+                          "Name": "theoutlands:outerstone"
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+            },
+            {
+              "type": "minecraft:block",
+              "result_state": {
+                "Name": "theoutlands:outersoil"
+              }
             }
           ]
+        }
+      },
+      {
+        "type": "minecraft:condition",
+        "if_true": {
+          "type": "minecraft:vertical_gradient",
+          "random_name": "minecraft:deepslate",
+          "true_at_and_below": {
+            "absolute": 0
+          },
+          "false_at_and_above": {
+            "absolute": 8
+          }
+        },
+        "then_run": {
+          "type": "minecraft:block",
+          "result_state": {
+            "Name": "minecraft:deepslate",
+            "Properties" : {
+              "axis": "y"
+            }
+          }
         }
       }
     ]
